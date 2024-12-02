@@ -1,0 +1,279 @@
+body{
+    background-image: url(About.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.head{
+    width: 110rem;
+    height: 7rem;
+    /* background-color: blue; */
+    justify-content: center;
+    display: flex;
+}
+
+.logo{
+    font-size: 45px;
+    font-family: Arial;
+    padding-left: 1px;
+    float: left;
+    padding-top: 10px;
+    color: red;
+}
+
+ul{
+    list-style-type: none;
+    /* background-color: aqua; */
+    display: flex;
+    width: 800px; 
+    height: 50px; 
+    margin-top: 50px;  
+}
+
+li,a{
+    text-decoration: none;
+    font-size: 25px;
+    font-style: initial;
+    font-weight: bold;
+    padding-left: 12px;
+    margin: 15px;
+    color: black;
+}
+
+li :hover{
+    color: white;
+}
+
+
+.para{
+    width: 110rem;
+    height: 10rem;
+    /* background-color: blue; */
+}
+
+.footer{
+    width: 118rem;
+    height: 15rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;   
+}
+
+.first{
+    width: 20rem;
+    height: auto;
+    margin: 8px;
+    text-align: center;
+}
+
+.second{
+    width: 20rem;
+    height: auto;
+    margin: 8px;
+    text-align: center;
+}
+
+.third{
+    width: 20rem;
+    height: auto;
+    margin: 8px;
+    text-align: center;
+}
+
+.follow{
+    width: 20rem;
+    height: 9rem;
+    margin: 8px;
+    text-align: center;
+}
+
+.fst{
+    text-decoration: underline;
+    color: white;
+}
+
+.scd{
+    list-style: none;
+    text-align: center;
+    font-weight: 100;
+    color: white;
+}
+
+.footer p{
+    color: white;
+}
+
+.container{
+    width: 118rem;
+    height: 37rem;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.container h2{
+    font-size: 30px;
+    padding-left: 140px;
+    padding-top: 70px;
+}
+
+.pra{
+    font-size: 60px;
+    color: red;
+    padding-left: 140px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.one{
+    font-size: 40px;
+    padding-left: 140px;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.two{
+     font-size: 30px;
+     padding-left: 145px;
+     font-weight: 100;
+     font-family: 'Times New Roman', Times, serif;
+     
+}
+
+.fa-facebook{
+    font-size: 40px;
+    padding: 5px;
+    color: white;
+}
+.fa-instagram{
+    font-size: 40px;
+    padding: 5px;
+    color: white;
+}
+.fa-twitter{
+    font-size: 40px;
+    padding: 5px;
+    color: white;
+}
+.fa-tiktok{
+    font-size: 40px;
+    padding: 5px;
+    color: white;
+}
+
+.form{
+    width: 118rem;
+    height: 30rem;
+    background-color:  rgba(255,255,255,0.5);
+}
+
+label{
+    font-size: 30px;
+    padding-left: 145px;
+    color: red;
+
+}
+
+input{
+    width: 20rem;
+    border-color: black;
+    background: transparent;
+    border-bottom: red;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 3px solid black;
+}
+
+textarea{
+    padding-left: 20rem;
+    background: transparent;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 3px solid black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background: #f2f2f2; */
+}
+
+.show-popup{
+    padding: 18px 40px;
+    background: red;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 01px rgba(0, 0, 0, -1);
+    cursor: pointer;
+    font-size: 10px;
+    color: #f2f2f2;
+    font-weight: 300px;
+    margin-left: 145px;
+}
+
+.popup-container{
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.popup-container.active{
+    opacity: 1;
+    pointer-events: auto;
+    transition: .4s ease;
+}
+
+.popup-container .popup-box{
+    width: 500px;
+    background: #f2f2f2;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, -1);
+    padding: 30px;
+    transform: scale(0);
+}
+
+.popup-container.active .popup-box{
+    transform: scale(1);
+    transition: .4s ease;
+    transition-delay: .25s;
+
+}
+
+.popup-box h1{
+    color: #333;
+    line-height: 1;
+}
+
+.popup-box p{
+    color: #333;
+}
+
+.popup-box .close-btn{
+    width: 100%;
+    height: 45px;
+    background: red;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, -1); 
+    cursor: pointer;
+    font-weight: 500 ;
+    margin: 5px;
+}
+
+
+

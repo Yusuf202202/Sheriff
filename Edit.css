@@ -1,0 +1,175 @@
+body{
+    background-image: url(About.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.head{
+    width: 110rem;
+    height: 7rem;
+    /* background-color: blue; */
+    justify-content: center;
+    display: flex;
+}
+
+.logo{
+    font-size: 45px;
+    font-family: Arial;
+    padding-left: 1px;
+    float: left;
+    padding-top: 10px;
+    color: red;
+}
+
+ul{
+    list-style-type: none;
+    /* background-color: aqua; */
+    display: flex;
+    width: 800px; 
+    height: 50px; 
+    margin-top: 50px;  
+}
+
+li,a{
+    text-decoration: none;
+    font-size: 25px;
+    font-style: initial;
+    font-weight: bold;
+    padding-left: 12px;
+    margin: 15px;
+    color: black;
+}
+
+li :hover{
+    color: white;
+}
+
+.footer{
+    width: 118rem;
+    height: 15rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;   
+}
+
+p,h1{
+    color: white;
+}
+
+.first{
+    width: 20rem;
+    height: auto;
+    margin: 8px;
+    text-align: center;
+}
+
+.second{
+    width: 20rem;
+    height: auto;
+    margin: 8px;
+    text-align: center;
+}
+
+.third{
+    width: 20rem;
+    height: auto;
+    margin: 8px;
+    text-align: center;
+}
+
+.follow{
+    width: 20rem;
+    height: 9rem;
+    margin: 8px;
+    text-align: center;
+}
+
+.fst{
+    text-decoration: underline;
+}
+
+.scd{
+    list-style: none;
+    text-align: center;
+    font-weight: 100;
+    color: white;
+}
+
+.about{
+    width: 118rem;
+    height: 18rem;
+    /* background-color: aqua; */
+    text-align: center;
+    /* margin-left: 18rem; */
+    margin-top: 0.1rem;
+}
+
+.about h2{
+    font-size: 5rem;
+    color: red;
+}
+
+.about p{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 20px;
+}
+
+.container{
+     width: 118rem;
+     height:  30rem;
+     background-color: rgba(255,255,255,0.5);
+     margin-top: 0.1rem;
+     display: flex;
+     justify-content: center;
+     align-content: center;
+}
+
+.contain{
+    width: 30rem;
+    height: 28rem;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+h3{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+}
+
+.contain p{
+    font-size: 20px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contain img{
+    width: 17rem;
+    height: 17rem;
+    border-radius: 10rem;
+}
+
+.fa-facebook{
+    font-size: 40px;
+    padding: 5px;
+    color: white;
+}
+.fa-instagram{
+    font-size: 40px;
+    padding: 5px;
+    color: white;
+}
+.fa-twitter{
+    font-size: 40px;
+    padding: 5px;
+    color: white;
+}
+.fa-tiktok{
+    font-size: 40px;
+    padding: 5px;
+    color: white;
+}
+
